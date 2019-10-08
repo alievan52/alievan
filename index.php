@@ -40,7 +40,15 @@ case 'rangpur':
 			break;
 case 'sylhet':
 			$speech = "Sylhet Circle: Ph: 0821-72555, 0821-726374, Mob: , PBX: , Email: dgmsylhetcircle@agranibank.org";
-			break;				
+			break;	
+
+case 'dhaka circle 1':
+			$speech = "Dhaka Circle 1: Ph: 9574698, Mob: 01793-411441, PBX: 629, Email: gmdhaka1@agranibank.org";
+			break;
+
+case 'dhaka circle 2':
+			$speech = "Dhaka Circle 2: Ph: 9573103, Mob: 01727547340, PBX: 614 , Email: gmdhaka2@agranibank.org";
+			break;			
 		
 		default:
 			$speech = $text." is not a valid circle name! Please mention correct name with circle keyword";
@@ -54,7 +62,7 @@ case 'sylhet':
 }
 else
 {
-	echo "Method not allowed_78";
+	echo "Method not allowed---";
 }
 
 ?>
