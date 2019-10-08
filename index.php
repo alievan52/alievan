@@ -7,23 +7,23 @@ if($method == 'POST'){
 	$requestBody = file_get_contents('php://input');
 	$json = json_decode($requestBody);
 
-	$text = $json->result->parameters->text;
+	$text = $json->queryResult->parameters->text;
 
 	switch ($text) {
-		case 'hi':
-			$speech = "Hi, Nice to meet you";
+		case 'barisal':
+			$speech = "yes it is barisal circle";
 			break;
 
-		case 'bye':
-			$speech = "Bye, good night";
+		case 'dhaka':
+			$speech = "yes it is dhaka circle";
 			break;
 
-		case 'anything':
-			$speech = "Yes, you can type anything here.";
+		case 'feni':
+			$speech = "yes it is feni circle";
 			break;
 		
 		default:
-			$speech = "Sorry, I didnt get that. Please ask me something else.";
+			$speech = $text." is not our circle";
 			break;
 	}
 
