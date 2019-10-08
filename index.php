@@ -34,7 +34,7 @@ if($method == 'POST'){
 }
 else
 {
-	echo "Method not allowed443";
+	echo "Method not allowed44344";
 }
 
 ?>
