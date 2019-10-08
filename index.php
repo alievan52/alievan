@@ -62,7 +62,7 @@ case 'dhaka circle 2':
 }
 else
 {
-	echo "Method not allowed---";
+	echo "Method not allowed232323";
 }
 
 ?>
