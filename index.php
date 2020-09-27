@@ -1,4 +1,5 @@
 <?php 
+echo 1+1; exit;
 
 $method = $_SERVER['REQUEST_METHOD'];
 
